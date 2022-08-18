@@ -1840,9 +1840,23 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 #about {
   min-height: 786px;
   background: #000000;
-  padding-top: 18rem;
   overflow: hidden;
+  padding:18rem 0rem 0rem;
+  width: 100%;
+  
+  
 }
+
+#welcome-para {
+  font-size: 24px;
+  font-style: italic;
+
+}
+
+#about-cta{
+  text-align: center;
+  margin-bottom: 8rem;
+ }
 
 .about-intro {
   padding-bottom: 3.6rem;
@@ -2277,6 +2291,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  *  13. testimonials - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
+
  
 
 #testimonials {
@@ -2289,6 +2304,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 .banner {
 width: 100%;
 padding-bottom: 7rem;
+}
+
+.couple {
+  margin-top: 8rem; 
+  margin-bottom: 8rem;
 }
 
 #testimonials h1 {
@@ -2634,6 +2654,23 @@ footer ul a:visited {
 }
 
 .footer-logo {
+  display: block;
+  margin: 0 0 5.4rem 0;
+  padding: 0;
+  outline: 0;
+  border: none;
+  width: 130px;
+  height: 60px;
+  background: url("../images/conteders.png") no-repeat center;
+  background-size:130px 60px;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.footer-logo-quetra {
   display: block;
   margin: 0 0 5.4rem 0;
   padding: 0;
