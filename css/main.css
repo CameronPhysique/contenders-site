@@ -1841,7 +1841,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   min-height: 786px;
   background: #000000;
   overflow: hidden;
-  padding:18rem 0rem 0rem;
+  margin-top: 6rem;
+  padding:18rem 12rem 0rem;
   width: 100%;
   
   
@@ -2339,7 +2340,7 @@ padding-bottom: 7rem;
 
 #testimonial-slider p {
   font-family: "muli-regular", sans-serif;
-  font-size: 3.2rem;
+  font-size: 2.2rem;
   line-height: 1.5;
   color: #d0cece;
 }
