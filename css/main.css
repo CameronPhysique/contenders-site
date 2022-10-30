@@ -102,7 +102,7 @@ a:focus {
 
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
   font-family: "Contrail One", sans-serif;
-  color: #edecec;
+  color: #232222;
   font-style: normal;
   text-rendering: optimizeLegibility;
   margin-bottom: 2.4rem;
@@ -1075,7 +1075,7 @@ h1.intro-header {
   font-family: "Contrail One", sans-serif;
   font-size: 3.4rem;
   line-height: 1.324;
-  color: #f1f1f1;
+  color: #C40404
   position: relative;
   padding-bottom: 3.6rem;
 }
@@ -1097,6 +1097,11 @@ h1.intro-header::before {
 
 .narrow {
   max-width: 800px;
+}
+
+.testimonial-header {
+  color:rgb(157, 154, 154);
+
 }
 
 
@@ -1557,6 +1562,29 @@ h1.intro-header::before {
 .home-social-list li a:focus,
 .home-social-list li a:active {
   color: #C40404;
+}
+
+/* Feature Image */
+.feature-image {
+  margin-bottom: 3rem;
+}
+
+/* Logo Destion */
+
+.logo-section {
+  margin: 3rem;
+  padding: 2rem;
+}
+
+.logo-section h1 {
+  margin-left: 3rem;
+}
+
+/* Guarantee Section */
+
+.guarantee {
+ width: 300px;
+ height: auto; 
 }
 
 
